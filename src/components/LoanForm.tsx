@@ -128,8 +128,8 @@ const LoanForm: React.FC<LoanFormProps> = ({
             {...register("phone", {
               required: "Phone is required",
               pattern: {
-                value: /^34[6789]\d{8}$/,
-                message: "Must be a valid phone number starting with 34",
+                value: /^\+?\d+$/,
+                message: "Must be a valid phone number",
               },
               setValueAs: (value: string) => value.trim(),
             })}

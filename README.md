@@ -118,4 +118,4 @@ These inform the user about specific errors.
 ## Demo
 
 You can view a live demo here:  
-[Application Demo](#) *()*
+[Application Demo](#) *(https://circularloan.netlify.app/loanPage.html?id=1)*
