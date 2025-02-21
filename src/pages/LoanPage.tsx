@@ -35,9 +35,9 @@ const LoanPage: React.FC = () => {
 
   if (error) return <ErrorMessage message={error} />;
 
-  return (
-    <LoanForm />
-  )
+  
+  return <LoanForm user={user} />;
+
 };
 
 export default LoanPage;
