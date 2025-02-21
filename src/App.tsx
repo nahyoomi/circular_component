@@ -6,8 +6,8 @@ const App: React.FC = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/prestamo.html" element={<LoanPage />} />
-        <Route path="*" element={<Navigate to="/prestamo.html" />} />
+        <Route path="/loanPage.html" element={<LoanPage />} />
+        <Route path="*" element={<Navigate to="/loanPage.html" />} />
       </Routes>
     </Router>
   );
